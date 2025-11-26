@@ -13,22 +13,22 @@ Selain model Jupyter Notebook, repositori ini juga menyertakan folder ProyekWebS
 
 * Pembangunan model LSTM (Embedding Layer, LSTM Layer, Dense Layer).
 
-Pelatihan dan Evaluasi Model (Training & Evaluation).
+* Pelatihan dan Evaluasi Model (Training & Evaluation).
 
-ProyekWebSentimen/: Direktori yang berisi source code untuk aplikasi web (kemungkinan berbasis Django atau Flask) untuk deployment model analisis sentimen.
+* ProyekWebSentimen/: Direktori yang berisi source code untuk aplikasi web (kemungkinan berbasis Django atau Flask) untuk deployment model analisis sentimen.
 
-🛠️ Teknologi yang Digunakan
-Bahasa Pemrograman: Python
+## 🛠️ Teknologi yang Digunakan
+* Bahasa Pemrograman: Python
 
-Machine Learning / Deep Learning: TensorFlow, Keras
+* Machine Learning / Deep Learning: TensorFlow, Keras
 
-Data Processing: Pandas, NumPy
+* Data Processing: Pandas, NumPy
 
-NLP Tools: NLTK, Sastrawi (untuk stemming bahasa Indonesia), Scikit-learn
+* NLP Tools: NLTK, Sastrawi (untuk stemming bahasa Indonesia), Scikit-learn
 
-Web Framework: (Perlu dicek di dalam folder ProyekWebSentimen, kemungkinan Django atau Flask)
+* Web Framework: (Perlu dicek di dalam folder ProyekWebSentimen, kemungkinan Django atau Flask)
 
-🚀 Cara Menjalankan
+## 🚀 Cara Menjalankan
 Prasyarat
 Pastikan Anda telah menginstal Python dan library yang diperlukan. Anda dapat menginstalnya menggunakan pip:
 
@@ -74,19 +74,19 @@ Bash
 python app.py
 Buka browser dan akses alamat localhost yang muncul (biasanya http://127.0.0.1:8000 atau http://127.0.0.1:5000).
 
-📊 Alur Kerja (Workflow)
-Crawling Data: Mengambil data tweet terkait "PPKM Diperpanjang".
+## 📊 Alur Kerja (Workflow)
+*Crawling Data: Mengambil data tweet terkait "PPKM Diperpanjang".
 
-Preprocessing: Membersihkan data dari simbol, angka, mengubah ke huruf kecil, dan menghapus kata-kata tidak penting (stopwords).
+* Preprocessing: Membersihkan data dari simbol, angka, mengubah ke huruf kecil, dan menghapus kata-kata tidak penting (stopwords).
 
-Tokenizing & Padding: Mengubah teks menjadi urutan angka (sequence) agar dapat diproses oleh LSTM.
+* Tokenizing & Padding: Mengubah teks menjadi urutan angka (sequence) agar dapat diproses oleh LSTM.
 
-Modeling: Melatih model LSTM untuk mengenali pola sentimen.
+* Modeling: Melatih model LSTM untuk mengenali pola sentimen.
 
-Evaluasi: Mengukur akurasi model menggunakan data testing.
+* Evaluasi: Mengukur akurasi model menggunakan data testing.
 
-🤝 Kontribusi
+## 🤝 Kontribusi
 Kontribusi selalu diterima! Silakan buat Pull Request atau buka Issue jika Anda menemukan bug atau ingin menambahkan fitur baru.
 
-📝 Kredit
+## 📝 Kredit
 Dibuat oleh writgerald.
