@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Sentimen PPKM</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: grid; place-items: center; min-height: 90vh; background-color: #f4f4f9; }
+        .container { background: #fff; padding: 2rem 3rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
+        h1 { color: #333; }
+        textarea { width: 100%; min-height: 100px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin-top: 1rem; font-size: 1rem; }
+        input[type="submit"] { background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem; margin-top: 1rem; }
+        input[type="submit"]:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Analisis Sentimen Tweet PPKM</h1>
+        <p>Masukkan sebuah kalimat atau tweet untuk diprediksi sentimennya.</p>
+        <form action="/predict" method="POST">
+            <textarea name="text" placeholder="Contoh: ppkm diperpanjang lagi, saya jadi tidak bisa kerja..." required></textarea>
+            <br>
+            <input type="submit" value="Analisis Sekarang">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Analisis</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: grid; place-items: center; min-height: 90vh; background-color: #f4f4f9; }
+        .container { background: #fff; padding: 2rem 3rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
+        h1 { color: #333; }
+        .result-box { margin-top: 1.5rem; border: 2px solid #007bff; padding: 1rem; border-radius: 5px; background: #f0f8ff; }
+        .text-input { font-style: italic; color: #555; }
+        .prediction { font-size: 2rem; font-weight: bold; margin: 1rem 0; }
+        .confidence { font-size: 1rem; color: #444; }
+        a { display: inline-block; margin-top: 2rem; text-decoration: none; background: #6c757d; color: white; padding: 10px 15px; border-radius: 5px; }
+        a:hover { background: #5a6268; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hasil Analisis Sentimen</h1>
+        
+        <p>Teks yang Anda masukkan:</p>
+        <p class="text-input">"{{ text }}"</p>
+
+        <div class="result-box">
+            Prediksi Sentimen:
+            <div class="prediction">{{ prediction }}</div>
+            <div class="confidence">Tingkat Keyakinan: {{ confidence }}</div>
+        </div>
+
+        <a href="/">Analisis Teks Lain</a>
+    </div>
+</body>
+</html>
