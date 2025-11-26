@@ -1,16 +1,17 @@
-Analisis Sentimen Twitter Menggunakan LSTM
+# Analisis Sentimen Twitter Menggunakan LSTM
+
 Proyek ini bertujuan untuk melakukan Analisis Sentimen pada data media sosial Twitter (sekarang X) terkait topik PPKM (Pemberlakuan Pembatasan Kegiatan Masyarakat) yang diperpanjang. Model dibangun menggunakan metode Deep Learning, khususnya Long Short-Term Memory (LSTM), untuk mengklasifikasikan sentimen tweet menjadi positif, negatif, atau netral.
 
 Selain model Jupyter Notebook, repositori ini juga menyertakan folder ProyekWebSentimen yang kemungkinan berisi implementasi web (Web App) untuk mendemonstrasikan model secara interaktif.
 
-📂 Struktur Repositori
-Project_Deep_Learning_Terakhir_FIX_NOREVISI(12).ipynb: File Jupyter Notebook utama yang berisi seluruh tahapan pengembangan model, mulai dari:
+## 📂 Struktur Repositori
+* Project_Deep_Learning_Terakhir_FIX_NOREVISI(12).ipynb: File Jupyter Notebook utama yang berisi seluruh tahapan pengembangan model, mulai dari:
 
-Pemuatan data (Data Loading).
+* Pemuatan data (Data Loading).
 
-Pra-pemrosesan teks (Cleaning, Case Folding, Tokenization, Stopword Removal, Stemming).
+* Pra-pemrosesan teks (Cleaning, Case Folding, Tokenization, Stopword Removal, Stemming).
 
-Pembangunan model LSTM (Embedding Layer, LSTM Layer, Dense Layer).
+* Pembangunan model LSTM (Embedding Layer, LSTM Layer, Dense Layer).
 
 Pelatihan dan Evaluasi Model (Training & Evaluation).
 
