@@ -43,6 +43,7 @@ Clone repositori ini:
 Bash
 
 git clone https://github.com/writgerald/Analisis-Sentiment-Twitter-Menggunakan-LSTM.git
+
 Buka Jupyter Notebook atau Google Colab.
 
 Jalankan file Project_Deep_Learning_Terakhir_FIX_NOREVISI(12).ipynb.
@@ -55,11 +56,13 @@ Masuk ke direktori web:
 Bash
 
 cd Analisis-Sentiment-Twitter-Menggunakan-LSTM/ProyekWebSentimen
+
 Install dependencies (jika ada file requirements.txt):
 
 Bash
 
 pip install -r requirements.txt
+
 Jalankan server (tergantung framework yang digunakan):
 
 Jika Django:
@@ -67,11 +70,13 @@ Jika Django:
 Bash
 
 python manage.py runserver
+
 Jika Flask:
 
 Bash
 
 python app.py
+
 Buka browser dan akses alamat localhost yang muncul (biasanya http://127.0.0.1:8000 atau http://127.0.0.1:5000).
 
 ## 📊 Alur Kerja (Workflow)
