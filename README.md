@@ -80,7 +80,7 @@ python app.py
 Buka browser dan akses alamat localhost yang muncul (biasanya http://127.0.0.1:8000 atau http://127.0.0.1:5000).
 
 ## 📊 Alur Kerja (Workflow)
-*Crawling Data: Mengambil data tweet terkait "PPKM Diperpanjang".
+* Crawling Data: Mengambil data tweet terkait "PPKM Diperpanjang".
 
 * Preprocessing: Membersihkan data dari simbol, angka, mengubah ke huruf kecil, dan menghapus kata-kata tidak penting (stopwords).
 
